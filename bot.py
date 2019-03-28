@@ -20,4 +20,4 @@ def checkSam(message):
   return re.search(r"\b" + re.escape('sam') + r"\b", message, re.IGNORECASE)
 
 client = MyClient()
-client.run('NTU3NjQyMjYyNDU3MzUyMjAy.D3qcdQ.1ZzoiuBt4gQ7XVQCaOCnPMVGw10')
+client.run('TOKEN')
